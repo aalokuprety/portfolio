@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- In head of HTML -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous"/>
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header class="container">
+        <nav class="navbar">
+            <h1 class="logo">au</h1>
+            <ul class="links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+
+            </ul>
+            <button class="btn">Message</button>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="des">
+            <h1>Hi, I'm <span class="name">aalok</span></h1>
+            <p>I do <span class="typed-skill" id="typed-skill"></span></p>
+
+            
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-head">
+            <h1>About</h1>
+        </div>
+        <div class="about-text">
+            <div class="skull">
+                <img src="images/lineart.webp" alt="Minimal Lineart" loading="lazy">
+            </div>
+            <div class="text-part">
+                <h1>Hi, I'm Aalok Uprety.</h1>
+                <p>I'm a passionate computer engineering student with a strong foundation in both software and hardware systems. I enjoy building practical solutions that blend creativity with technical skill — from responsive web applications and embedded systems to IoT-based monitoring projects.</p>
+                <p>With experience in full-stack development, microcontroller programming, and sensor integration, I love solving real-world problems through clean code and thoughtful design. I'm always exploring new technologies and collaborating on impactful projects that make a difference.</p>
+                
+
+                <div class="icon">
+                    <a href="https://www.facebook.com/aalok.upreti.1738" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/aalokuprety/"target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/aalokuprety"target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/aalok-uprety-18b7a3262/"target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="education">
+    <div class="education-head">
+        <h1>Education</h1>
+    </div>
+    <div class="education-cards">
+        <div class="education-card">
+            <h2>Mississippi State University</h2>
+            <span>B.S. in Computer Engineering</span>
+            <span class="edu-date">Expected May 2027</span>
+            <p>Current CGPA: <strong>4.00/4.00</strong></p>
+            <p>Relevant Coursework:</p>
+            <ul>
+                <li>Data Structures</li>
+                <li>Microprocessors</li>
+                <li>Circuits I</li>
+                <li>Digital Logic</li>
+                <li>C++ & Python Programming</li>
+                <li>Discrete Math</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+    <section id="projects" class="projects">
+        <div class="projects-head">
+            <h1>Projects</h1>
+        </div>
+        <div class="projects-content">
+    <div class="project-box">
+        <h2>Seed Detection App</h2>
+        <p>A Progressive Web App (PWA) built with React that detects and counts seeds in real-time using a custom-trained TensorFlow model. Deployed using Render with an intuitive UI for mobile and desktop.</p>
+        <a href="https://github.com/aalokuprety/seed-detection-pwa" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-box">
+        <h2>Greenhouse Monitoring System</h2>
+        <p>An IoT-based solution that tracks temperature, humidity, and soil moisture in a greenhouse environment. Built using Arduino, DHT11 sensors, and a live dashboard for visualization.</p>
+        <a href="https://github.com/aalokuprety/Greenhouse" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-box">
+        <h2>Smart Parking Alert System</h2>
+        <p>An embedded system using ultrasonic sensors and a microcontroller to alert drivers of nearby parked vehicles. Sends real-time SMS alerts and displays distances using an LCD module.</p>
+        <a href="https://github.com/aalokuprety/ParkingAlert" target="_blank">View on GitHub</a>
+    </div>
+</div>
+
+    </section>
+<section id="experience" class="experience">
+    <div class="experience-head">
+        <h1>Work Experience</h1>
+    </div>
+    <div class="timeline">
+        <div class="timeline-item">
+            <h2>Persistent Autonomous Mobile Monitoring Project – MSU</h2>
+            <span>Jun 2025 – Present</span>
+            <p>Assisting in the development of autonomous surface vehicles (ASVs) equipped with environmental sensors to detect hazardous agents in water. Supporting sensor integration, data analysis, and collaborating with researchers at WHOI and ERDC.</p>
+        </div>
+        <div class="timeline-item">
+            <h2>Center for Advanced Vehicular Systems – MSU</h2>
+            <span>Apr 2025 – Present</span>
+            <p>Simulated water droplet interactions on silica surfaces using LAMMPS. Automated workflows using Bash/Python and visualized outputs with OVITO to support materials research.</p>
+        </div>
+        <div class="timeline-item">
+            <h2>Student Developer – Plant & Soil Sciences, MSU</h2>
+            <span>Oct 2024 – May 2025</span>
+            <p>Developed a ReactJS web app integrated with YOLOv8 to count micro-seeds in real-time. Improved accuracy by 22% and reduced lab analysis time significantly.</p>
+        </div>
+        <div class="timeline-item">
+            <h2>MAC Lab – MSU</h2>
+            <span>Nov 2024 – Feb 2025</span>
+            <p>Modeled global crop yield projections in R and conducted geospatial analysis using ArcGIS to study climate impact on agriculture.</p>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        © Aalok Portfolio | Made with ♥
+    </footer>
+    <script>
+    const skills = ["web development", "embedded systems", "machine learning", "IoT projects", "full-stack applications", "research-driven simulations"];
+    let index = 0;
+    let charIndex = 0;
+
+    // ⏩ Faster typing & erasing speeds
+    const typingSpeed = 60;     // was 100
+    const eraseSpeed = 30;      // was 50
+    const delayBetween = 1200;  // was 2000
+
+    const typedElement = document.getElementById("typed-skill");
+
+    function type() {
+        if (charIndex < skills[index].length) {
+            typedElement.textContent += skills[index].charAt(charIndex);
+            charIndex++;
+            setTimeout(type, typingSpeed);
+        } else {
+            setTimeout(erase, delayBetween);
+        }
+    }
+
+    function erase() {
+        if (charIndex > 0) {
+            typedElement.textContent = skills[index].substring(0, charIndex - 1);
+            charIndex--;
+            setTimeout(erase, eraseSpeed);
+        } else {
+            index = (index + 1) % skills.length;
+            setTimeout(type, typingSpeed);
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        if (skills.length) setTimeout(type, 800); // faster initial delay
+    });
+</script>
+
+
+</body>
+</html>
+
+<script>
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.timeline-item').forEach(item => {
+        observer.observe(item);
+    });
+</script>
